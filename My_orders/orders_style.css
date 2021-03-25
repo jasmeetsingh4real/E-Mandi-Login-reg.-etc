@@ -1,0 +1,171 @@
+/*My orders and card page CSS*/
+
+.orders_H1{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:25px;
+    color:#00ac61 ;
+    padding: 0%;
+    margin: 0%;
+    margin-left: 10%;
+}
+
+.mainDiv{
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.295);
+  border-radius: 10px;
+  margin-top: 1%;
+  transition: 0.3s;
+}
+.mainDiv:hover{
+  box-shadow: 2px 2px 10px #0000003d;
+  border-color: #ffffff;
+}
+
+#prod_img{border: none;
+  float: left;
+  height: 130px;
+  border-radius: 5%;
+  margin:10px;
+  box-shadow: 2px 2px 2px #00000067;
+}
+
+.prod_qty:focus{
+  box-shadow: 1px 1px 2px #00000067;
+  outline: none;
+}
+
+.prod_qty{
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.301);
+  border-width: 1px;
+  outline: none;
+  margin-right: 5px;
+}
+
+.mainButton{ margin: 0px;
+  margin-top: -35px;
+  margin-right: 10px;
+  text-decoration: none;
+  border: none;
+  border-radius:  5px;
+  height: 40px;
+  width:130px;
+  background-image: linear-gradient(to right, #00ac61 ,#EFF54D,#00ac61);
+  font-size: 16px;
+  font-weight: bolder;
+  color:white;
+  outline: none;
+  background-size: 200%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.mainButton:hover{
+  background-position: right;
+  box-shadow: 2px 2px 6px #00000054;
+}
+/*Cart Page css*/
+.cart_total{ box-shadow:2px 2px 6px #00000054;
+  margin:5%;
+  margin-top:1%;
+  padding:2%;
+  padding-top:0%;
+  height:50px;
+  border-radius:10px;
+  background-color:#e1f8dc;
+  }
+  .buy_button{
+    float:right;
+   width:170px;
+   height: 40px;
+   margin-top:16px;
+   margin-right: 10px;
+   text-decoration: none;
+   border: none;
+   border-radius:  5px;
+   font-size: 16px;
+   font-weight: bolder;
+   color:white;
+   background-color: #00ac61;
+   outline: none;
+   transition: 0.3s;
+   cursor: pointer;
+  }
+  .buy_button:hover{
+    box-shadow: 2px 2px 6px #00000054;
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+  }
+  .cart_total h2{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+/* Caution!! Responsive query ahead*/
+
+@media all and (max-width:560px)
+{
+  .orders_H1{
+    font-size:16px;
+    margin: 0%;
+
+  }
+  #prod_img{
+      margin: 0%;
+      box-shadow: none;
+      height: 100%;
+      border-radius: 10%;
+  }
+  #prod_name{
+      margin: 0%;
+      font-size: 14px;
+      font-weight: normal;
+  }
+  #prod_price{
+      font-size: 14px;
+      margin: 0%;
+      font-weight: normal;
+  }
+  .mainButton{
+      width: 20%;
+      font-size: 70%;
+      height: 20px;
+      font-weight: lighter;
+      margin-right: 2%;
+      margin-top: -18px;
+  }
+  .prod_qty{
+      width:20%;
+      height: 10%;
+      margin-right: 0%;
+  }
+ 
+  .mainDiv{
+      height: 60px;
+      padding: 0%;
+      margin:0%;
+      margin-top: 1%;
+  }
+  body{
+      margin: 0%;
+  }
+  .cart_total{
+    margin: 0%;
+    margin-top: 2%;
+    height: 40px;
+  }
+  .buy_button{
+      margin-top: 10px;
+      height: 30px;
+      font-size: 14px;}
+      .cart_total h2{
+        font-size: 14px;
+      }
+      .buy_button:hover{
+        box-shadow: 2px 2px 6px #00000054;
+        font-size: 14.5px;
+      }
+}
+
